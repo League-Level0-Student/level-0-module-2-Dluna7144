@@ -12,13 +12,14 @@ import javax.swing.JApplet;
 import javax.swing.JOptionPane;
 
 public class SafeCracker {
-
+	 
 	public static void main(String[] args) {
-		/*
-		 * Your mission: use the tryCode method to crack the safe by trying all possible
-		 * combinations
-		 */
-
+	JOptionPane.showMessageDialog(null,"Mr.Matt doesn't help at all");
+		for(int i=0; i<9999999; i++) {
+			//System.out.println(i);
+			tryCode(i);
+		}
+		
 
 	}
 

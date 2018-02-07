@@ -8,7 +8,11 @@ void setup(){
          addScoop("Vanilla");
      //3. Use the method to add sprinkles to your ice cream
          addSprinkle(175);
-     //4. Write code to add a cherry to the top of your ice cream. hint: ellipse
+     //4. Write coe to add a cherry to the top of your ice cream. hint: ellipse
+          fill(160,19,3);
+          ellipse(249,18,70,70);
+         
+
 
 }
 
